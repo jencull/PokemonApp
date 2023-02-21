@@ -1,0 +1,18 @@
+{{#each pokemonlists}}
+  <section class="ui segment">
+    
+    <h2 class="ui header">
+      {{title}}
+    </h2>
+    
+    
+    <a href="/pokemonlist/{{id}}">
+      <i class="ui open folder icon"></i>
+    </a>
+    
+    <a href="/dashboard/deletepokemonlist/{{id}}">
+      <i class="ui trash icon delpokemonlist"></i>
+    </a>
+    
+  </section>
+{{/each}}
