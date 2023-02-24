@@ -1,20 +1,15 @@
-<div class="ui card" id ="{{name}}">
-  <div class="image">
-    <img src="{{image}}">
-  </div>
+
+
+<div class="ui centered link card" id = "{{name}}">
   <div class="content">
-    <a class="header">{{fullname}}</a>
-    <div class="meta">
-      <span class="date">Joined in {{joined}}</span>
-    </div>
-    <div class="description">
-      {{name}} is {{job}} in {{city}}
+    <div class="ui center aligned violet header">{{fullname}}</div> 
+    <div class="center aligned description">
+      <p> {{name}} is {{job}} in {{city}} and joined our team in {{joined}}</p>
     </div>
   </div>
-  <div class="extra content">
-    <a>
-      <i class="user icon"></i>
-      {{mates}} Friends
-    </a>
+  <div class="center aligned extra content">
+    <div class="center aligned author">
+      <img class="ui avatar image" src="{{image}}"> {{name}}
+    </div>
   </div>
 </div>

@@ -1,13 +1,46 @@
 {{> menu id="about"}}
 
-<section class="ui center aligned middle aligned segment">
-  <h2 class="ui header">
-    My Pokemon App team: 
-  </h2>
+<div class="ui container">
+  
 
-  <div class="ui centered cards">
+
+<div class="ui grid">
+  
+  <div class="ui eight wide column">
+    <h2 class="ui violet centered header">
+    Our Team
+  </h2>
+     
+
+  <div class="ui violet raised cards">
     {{#each creator}}
       {{> card}}
     {{/ each}}
   </div>
-</section>
+    
+    </div>
+    
+ 
+
+  <div class="ui eight wide column">
+      <h2 class="ui violet centered header">
+    We are here
+  </h2>
+    <div class="ui violet raised cards">
+    {{#each creator}}
+      {{> card}}
+    {{/ each}}
+  </div>
+    
+  
+      
+    </div>
+    
+    
+  </div>
+  </div>
+
+
+
+{{>footer}}
+
