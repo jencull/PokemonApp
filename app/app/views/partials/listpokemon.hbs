@@ -1,0 +1,42 @@
+<!-- Click through to this page from the dashboard landing page-->
+
+<table class="ui fixed striped table">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Type</th>
+      <th>Combat Power</th>
+      <th>Moveset</th>
+      <th>  </th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each pokemonlist.pokemon}}
+      <tr>
+        <td>
+          {{title}}
+        </td>
+        <td>
+          {{type}}
+        </td>
+        <td>
+          {{cp}}
+        </td>
+        <td>
+          {{moveset}}
+        </td>
+        <td>
+          <a href="/pokemonlist/{{../pokemonlist.id}}/deletepokemon/{{id}}" class="ui icon button delpokemon"><i class="ui violet trash icon"></i></a>
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
+
+ <p>
+  <span id="rating"> </span>
+</p>
+
+<button class="ui violet button" id = "rateit">
+  Rate it! <i class="star icon"></i>
+</button>

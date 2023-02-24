@@ -1,0 +1,31 @@
+{"trade":
+  [
+    {
+      "name":"Stufful",
+      "fullname":"Stufful",
+      "image":"https://cdn.glitch.global/5b78ac6c-d51d-4dc1-ae7c-80eca36762e6/Screenshot%202023-02-23%20at%2014.13.48.png?v=1677161845330",
+      "caught":2022,
+      "type":"Normal",
+      "shiny":"shiny",
+      "stars":3
+    },
+    {
+      "name":"Rayquaza",
+      "fullname":"Rayquaza",
+      "image":"https://cdn.glitch.global/5b78ac6c-d51d-4dc1-ae7c-80eca36762e6/Screenshot%202023-02-23%20at%2014.14.40.png?v=1677161842614",
+      "caught":2016,
+      "type":"Dragon",
+      "shiny":"shiny",
+      "stars":2
+    },
+    {
+      "name":"Swablu",
+      "fullname":"Swablu",
+      "image":"https://cdn.glitch.global/5b78ac6c-d51d-4dc1-ae7c-80eca36762e6/Screenshot%202023-02-23%20at%2014.15.25.png?v=1677161847542",
+      "caught":2023,
+      "type":"Flying",
+      "shiny":"shiny",
+      "stars":2
+    }
+  ]
+}

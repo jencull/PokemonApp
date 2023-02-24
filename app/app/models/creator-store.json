@@ -1,0 +1,28 @@
+{"creator":
+  [
+    {
+      "name":"Jen",
+      "fullname":"Jen Cullinan",
+      "image":"https://cdn.glitch.global/5b78ac6c-d51d-4dc1-ae7c-80eca36762e6/avatar1.jpg?v=1677170479157",
+      "joined":2016,
+      "job":"Student",
+      "city":"Waterford"
+    },
+    {
+      "name":"Brenda",
+      "fullname":"Brenda Mooney",
+      "image":"https://cdn.glitch.global/5b78ac6c-d51d-4dc1-ae7c-80eca36762e6/avatar2.jpg?v=1677170481767",
+      "joined":2023,
+      "job":"Contributer",
+      "city":"Waterford"
+    },
+    {
+      "name":"Callum",
+      "fullname":"Callum Jonsson",
+      "image":"https://cdn.glitch.global/5b78ac6c-d51d-4dc1-ae7c-80eca36762e6/avatar3.jpg?v=1677170462973",
+      "joined":2023,
+      "job":"Tester",
+      "city":"Waterford"
+    }
+  ]
+}

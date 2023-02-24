@@ -1,0 +1,35 @@
+{{> menu id="about"}}
+
+<div class="ui container">
+<div class="ui two column grid">
+  
+  <section class="ui eight wide column">
+  
+    <h2 class="ui violet centered header">
+    Our Team
+  </h2>
+
+  <div class="ui violet raised cards">
+    {{#each creator}}
+      {{> card}}
+    {{/each}}
+  </div>
+    </section>
+    
+  
+    <section class="ui eight wide column">
+      <h2 class="ui violet centered header">
+        Location
+      </h2>
+      
+  <div class="centered rounded" id="map">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20091.220943721684!2d-7.129261426835664!3d52.24839559256423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4842c41310dd4131%3A0x4042f0dcf13f7cfe!2sSouth%20East%20Technological%20University%20%7C%20Waterford!5e0!3m2!1sen!2sie!4v1677272236056!5m2!1sen!2sie"></iframe>
+</div>
+
+    </section>
+    
+  </div>
+  </div>
+
+{{>footer}}
+

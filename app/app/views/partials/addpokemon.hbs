@@ -1,0 +1,26 @@
+<form class="ui violet stacked segment form" action="/pokemonlist/{{pokemonlist.id}}/addpokemon" method="POST">
+  <div class="four fields">
+    <div class="field">
+      <label>Title</label>
+      <input type="text" name="title" required title = "Please include a valid Title"
+      placeholder="Name">
+    </div>
+    <div class="field">
+      <label>Type</label>
+      <input type="text" name="Type" required title = "Please include a valid type"
+      placeholder="Type"  >
+    </div>
+     <div class="field">
+      <label>Combat Power</label>
+      <input type="number" name="cp" required title = "Please include combat power"
+      placeholder="Combat Power"  >
+    </div>
+  
+   <div class="field">
+      <label>Moveset</label>
+      <input type="text" name="moveset" required title = "Please include moveset"
+      placeholder="fast move-charged move"  >
+    </div>
+    </div>
+  <button class="ui violet submit button">Add Pokemon</button>
+</form>

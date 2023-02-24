@@ -1,0 +1,17 @@
+{{> menu id="trade"}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui ui violet centered header">
+    Trades Available
+  </h2>
+</section>
+
+<section class="ui center aligned middle aligned segment">
+  <div class="ui centered cards">
+    {{#each trade}}
+      {{> cards}}
+    {{/ each}}
+  </div>
+</section>
+
+{{>footer}}

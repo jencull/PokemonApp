@@ -1,0 +1,85 @@
+{
+  "pokemonlistCollection": [
+    {
+      "id": "01",
+      "title": "Legendary Pokemon",
+      "pokemon": [
+        {
+          "id": "11",
+          "title": "Terrakion",
+          "type": "Rock/Fighting",
+          "cp": "2459",
+          "moveset": "Smack Down/Sacred Sword"
+        },
+        {
+          "id": "12",
+          "title": "Zekrom",
+          "type": "Dragon/Electric",
+          "cp": "2819",
+          "moveset": "Charge Beam/Fusion Bolt"
+        },
+        {
+          "id": "13",
+          "title": "Registeel",
+          "type": "Steel",
+          "cp": "1391",
+          "moveset": "Metal Claw/Zap Cannon"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "Mega Pokemon",
+      "pokemon": [
+        {
+          "id": "21",
+          "title": "Gardevoir",
+          "type": "Psychic/Fairy",
+          "cp": "2137",
+          "moveset": "Confusion/Psychic"
+        },
+        {
+          "id": "22",
+          "title": "Gengar",
+          "type": "Ghost/Poison",
+          "cp": "2449",
+          "moveset": "Ghost/Poison"
+        },
+        {
+          "id": "23",
+          "title": "Blaziken",
+          "type": "Fire/Fighting",
+          "cp": "2593",
+          "moveset": "Counter/Blast Burn"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "Shiny Pokemon",
+      "pokemon": [
+        {
+          "id": "31",
+          "title": "Tangrowth",
+          "type": "Grass",
+          "cp": "1069",
+          "moveset": "Infestation/Solar Beam"
+        },
+        {
+          "id": "32",
+          "title": "Seismitoad",
+          "type": "Water/Ground",
+          "cp": "889",
+          "moveset": "Bubble/Earth Power"
+        },
+        {
+          "id": "33",
+          "title": "Emboar",
+          "type": "Fire/Fighting",
+          "cp": "820",
+          "moveset": "Ember/Rockslide"
+        }
+      ]
+    }
+  ]
+}
