@@ -1,6 +1,13 @@
-const ratebtn  = document.querySelector("#rateit");
+$(".delpokemon").click(() => confirm('Are you sure you want to delete this Pokemon?'))
+//$(".tradepokemon").click(() => confirm('Email Jen on jen@example.com. Please include your Pogo username and friend code.'))
 
- $(".delpokemon").click(() => confirm('Are you sure you want to delete this Pokemon?'))
+//on click trade button the message pops up
+$(".tradepokemon").click(() => $('.ui.modal')
+  .modal('show'))
+
+$('.ui.video').video();
+
+const ratebtn  = document.querySelector("#rateit");
 
 ratebtn &&
   ratebtn.addEventListener("click", () => {
@@ -16,7 +23,6 @@ ratebtn &&
     }
   }
   }
-                         
-                          
 );
-
+                         
+                

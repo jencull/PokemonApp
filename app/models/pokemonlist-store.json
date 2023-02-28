@@ -10,7 +10,6 @@
           "type": "Rock/Fighting",
           "cp": "2459",
           "moveset": "Smack Down/Sacred Sword"
-          
         },
         {
           "id": "12",
@@ -54,35 +53,33 @@
           "moveset": "Counter/Blast Burn"
         }
       ]
-   
     },
     {
-    "id": "03",
-    "title": "Shiny Pokemon",
-    "pokemon": [
-      {
-      "id": "31",
-      "title": "Tangrowth",
-      "type": "Grass",
-      "cp": "1069",
-      "moveset": "Infestation/Solar Beam"
-      },
-      {
-      "id": "32",
-      "title": "Seismitoad",
-      "type": "Water/Ground",
-      "cp": "889",
-      "moveset": "Bubble/Earth Power"
-      },
-      {
-      "id": "33",
-      "title": "Emboar",
-      "type": "Fire/Fighting",
-      "cp": "820",
-      "moveset": "Ember/Rockslide"
-      }
-    
-  ]
+      "id": "03",
+      "title": "Shiny Pokemon",
+      "pokemon": [
+        {
+          "id": "31",
+          "title": "Tangrowth",
+          "type": "Grass",
+          "cp": "1069",
+          "moveset": "Infestation/Solar Beam"
+        },
+        {
+          "id": "32",
+          "title": "Seismitoad",
+          "type": "Water/Ground",
+          "cp": "889",
+          "moveset": "Bubble/Earth Power"
+        },
+        {
+          "id": "33",
+          "title": "Emboar",
+          "type": "Fire/Fighting",
+          "cp": "820",
+          "moveset": "Ember/Rockslide"
+        }
+      ]
     }
   ]
 }

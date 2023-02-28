@@ -1,46 +1,57 @@
 {{> menu id="about"}}
 
 <div class="ui container">
+<div class="ui stackable two column grid">
   
-
-
-<div class="ui grid">
+  <section class="ui eight wide column">
   
-  <div class="ui eight wide column">
     <h2 class="ui violet centered header">
     Our Team
   </h2>
-     
+    
+     <div class="ui segment">
 
   <div class="ui violet raised cards">
     {{#each creator}}
       {{> card}}
-    {{/ each}}
+    {{/each}}
+    <br>
   </div>
+       </div>
+    </section>
     
-    </div>
-    
- 
-
-  <div class="ui eight wide column">
-      <h2 class="ui violet centered header">
-    We are here
-  </h2>
-    <div class="ui violet raised cards">
-    {{#each creator}}
-      {{> card}}
-    {{/ each}}
-  </div>
     
   
+    <section class="ui eight wide column">
+    
+      <h2 class="ui violet center aligned header">
+         Our Location
+      </h2>
       
-    </div>
-    
-    
+      
+      <div class="ui segment">
+      
+<div class=" embed-container"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6401.8580654803945!2d-7.1386975396841095!3d52.24840244345772!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4042f0dcf13f7cfe!2sSouth%20East%20Technological%20University%20%7C%20Waterford!5e0!3m2!1sen!2sie!4v1677587042994!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+      
+      <br>
+      </div>
+      
+
+      <h2 class="ui violet centered header">
+       
+        
+        
+        What is Pokemon Go?
+      </h2>
+      
+ <div class="ui segment">
+     <div class="medium embed-container"><iframe src="https://www.youtube.com/embed//2sj2iQyBTQs" frameborder="0" allowfullscreen></iframe></div>
+  
+      </div>
+  </section>  
   </div>
   </div>
-
-
+  
 
 {{>footer}}
 

@@ -34,6 +34,42 @@ video {
 }
 
 .ui.menu .active.item {
-  background-color: opacity 0.7;
+  background-color: opacity 0.4;
+}
+
+.ui.form :focus:-ms-input-placeholder {
+     border-color: violet !important
+}
+
+.ui.form textarea:focus {
+  
+    border-color: violet;
+   
+}
+
+#map {
+    width: 100%;
+    height: 300px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+   z-index: 1;
+}
+
+.embed-container { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: hidden; 
+  max-width: 100%;
+  border: violet 1px;
+} 
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
 }
 

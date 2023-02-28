@@ -6,15 +6,15 @@ const trade = require("./trade-store.json");
             
 const tradeStore = {
 
-  // import the playlist collection object
+  // import the trade object
   trade: trade.trade,
 
-  // function to get all of the playlists
+  // function to get the trades
   getAllTrade() {
     return this.trade;
   },
 
 };
 
-// export the developerStore object so it can be used elsewhere
+// export the tradeStore object so it can be used elsewhere
 export default tradeStore;

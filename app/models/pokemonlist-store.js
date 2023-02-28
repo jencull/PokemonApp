@@ -1,29 +1,48 @@
 'use strict';
 
-import _ from 'lodash';
-import { createRequire } from "module";
-const require = createRequire(import.meta.url);
-const pokemonlistCollection = require("./pokemonlist-store.json");
+import logger from '../utils/logger.js';
+import JsonStore from './json-store.js';
 
 const pokemonlistStore = {
 
-  // import the pokemonlist collection object
-  pokemonlistCollection: pokemonlistCollection.pokemonlistCollection,
-
+  store: new JsonStore('./models/pokemonlist-store.json', { pokemonlistCollection: [] }),
+  collection: 'pokemonlistCollection',
+  
   // function to get all of the pokemonlists
   getAllPokemonlists() {
-    return this.pokemonlistCollection;
+    return this.store.findAll(this.collection);
   },
 
- getPokemonlist (id) {
-    return _.find(this.pokemonlistCollection, { id: id });
+ getPokemonlist(id) {
+return this.store.findOneBy(this.collection, (collection => collection.id === id));
   },
+
   
    removePokemon(id, pokemonId) {
-    const pokemonlist = this.getPokemonlist(id);
-    _.remove(pokemonlist.pokemon, { id: pokemonId });
+  const arrayName = "pokemon";
+    this.store.removeItem(this.collection, id, arrayName, pokemonId);
   },
 
+    addpokemon(id, pokemon) {
+    const arrayName = "pokemon";
+    this.store.addItem(this.collection, id, arrayName, pokemon);
+  },
+  
+
+  removePokemonlist(id) {
+    const pokemonlist = this.getPokemonlist(id);
+    this.store.removeCollection(this.collection, pokemonlist);
+  },
+
+  
+  removeAllPokemonlists() {
+    this.store.removeAll(this.collection);
+  },
+
+  
+  addPokemonlist(pokemonlist) {
+    this.store.addCollection(this.collection, pokemonlist);
+  },
 
 };
 
