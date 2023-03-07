@@ -51,6 +51,13 @@
           "type": "Fire/Fighting",
           "cp": "2593",
           "moveset": "Counter/Blast Burn"
+        },
+        {
+          "id": "426e8a5b-e77e-466d-b5f0-6c3064be5488",
+          "title": "Groudon",
+          "type": "Ground",
+          "cp": "3396",
+          "moveset": "Dragon Tail/Precipice Blades"
         }
       ]
     },
@@ -78,6 +85,13 @@
           "type": "Fire/Fighting",
           "cp": "820",
           "moveset": "Ember/Rockslide"
+        },
+        {
+          "id": "077552e5-1789-4f46-b40e-59ca86ecbe50",
+          "title": "Staryu",
+          "type": "Water",
+          "cp": "780",
+          "moveset": "Water Gun/Bubble Beam"
         }
       ]
     }
